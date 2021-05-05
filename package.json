@@ -1,0 +1,46 @@
+{
+  "name": "tool-converter-wav2flac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "webpack -w --config webpack.dev.config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rewolfiluac/tool-converter-wav2flac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rewolfiluac/tool-converter-wav2flac/issues"
+  },
+  "homepage": "https://github.com/rewolfiluac/tool-converter-wav2flac#readme",
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.2",
+    "python-shell": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^5.3.1",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
